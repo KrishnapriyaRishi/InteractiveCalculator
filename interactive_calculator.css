@@ -1,0 +1,76 @@
+body {
+  background-color: rgba(229, 137, 137, 0.4);
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calc {
+  background-color: rgb(77, 99, 77);
+  width: 350px;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 15px 15px 8px gray;
+  gap: 40px;
+  color: rgb(234, 215, 215);
+}
+.calc > input {
+  height: 25px;
+  background-color: rgb(172, 177, 163);
+  color: brown;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+.num {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  padding: 10px;
+}
+button {
+  width: 50px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgba(32, 28, 29, 0.9);
+  color: wheat;
+  text-align: center;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border: none;
+}
+
+.operator {
+  background-color: rgb(20, 42, 22);
+}
+button:hover {
+  background-color: rgba(157, 61, 85, 0.4);
+}
+button:active {
+  background-color: rgba(157, 61, 85, 0.7);
+}
+.special {
+  width: 100px;
+  border-radius: 10px;
+  background-color: crimson;
+  margin-top: 10px;
+}
+.special:hover {
+  background-color: rgba(224, 143, 159, 0.7);
+  font-size: 1.6rem;
+  color: black;
+}
